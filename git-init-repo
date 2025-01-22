@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Check if already a repo
+Directory=".git"
+if [ -d "$Directory" ];
+then 
+    echo "Repository already exists"
+    exit 1
+fi
+
+# Enter name
+read -p "Enter Origin: " origin 
+
+git init
+
+git add . 
+
+git commit -m "First"
+
+git branch -M main
+
+git remote add origin $origin
+
+git push -u origin main
+echo "Git inited."
