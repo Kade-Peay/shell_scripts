@@ -16,7 +16,7 @@ or restart you terminal for it to take effect.
 
 ## Scripts and what they do
 * fib
-    * Enter a number and get its fibonacci sequence.
+    * Enter 'fib {sum_num}' and get the sequence up to that number.
 * ghost
     * Says "BOO!".
 * git-init-repo

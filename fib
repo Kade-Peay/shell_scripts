@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "Enter the number of terms: "
-read n
 
 a=0
 b=1
@@ -11,7 +9,7 @@ echo "The Fibonacci series is: "
 echo -n "$a "
 echo -n "$b "
 
-for(( i=2; i<n; i++ ))
+for(( i=2; i<$1; i++ ))
 do
     fn=$((a+b))
     echo -n "$fn "
