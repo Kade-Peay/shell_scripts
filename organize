@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# NOT WORKING
-
-DOWNLOADS_DIR="~/Downloads"
+DOWNLOADS_DIR="$HOME/Downloads"
 
 # Organize based on extensions
 for file in "$DOWNLOADS_DIR"/*; do

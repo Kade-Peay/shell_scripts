@@ -24,9 +24,9 @@ or restart you terminal for it to take effect.
     * It will ask for the origin at the start.
     * It will also check and make sure current directory is not already a git repository.
 * organize
-    * NOT WORKING CURRENTLY!
     * Meant to organize /Downloads folder by file extension.
     * I wrote a better version in Python 5 years ago, I've fallen off.
+    * LOL it was the '~', working now
 * system_info
     * Gives Hostname, OS, Kernel Version, Uptime, Disk Usage, and Memory Usage.
 * update_servers
