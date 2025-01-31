@@ -32,3 +32,6 @@ or restart you terminal for it to take effect.
 * update_servers
     * Updates a list of servers. The list is my set of Raspberry Pi servers.
     * For this to work you must use 'ssh-copy-id' so that you don't have to individually log into every server. Is this safe and secure? Not at all. But it's my house and I'm a bad boy.
+* list-scripts
+    * A utility to just 'ls' the shellScript directory
+    * Meant to be used if forgetting a command, does not help if you forget this one
