@@ -27,7 +27,7 @@ or restart you terminal for it to take effect.
     * Meant to organize /Downloads folder by file extension.
     * I wrote a better version in Python 5 years ago, I've fallen off.
     * LOL it was the '~', working now
-* system_info
+* system-info
     * Gives Hostname, OS, Kernel Version, Uptime, Disk Usage, and Memory Usage.
 * update_servers
     * Updates a list of servers. The list is my set of Raspberry Pi servers.
