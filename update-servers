@@ -1,0 +1,17 @@
+#! /bin/bash
+
+servers=("monitor.local" "watchlist.local" "10.0.0.101" "ender.local")
+
+for server in "${servers[@]}"; do
+    echo "Updating and upgrading packages on $server..."
+
+    ssh -o StrictHostKeyChecking=no "pi@$server" << EOF 
+        sudo apt update && sudo apt upgrade -y
+EOF
+
+    if [ $? -eq 0 ]; then 
+        echo "Update and upgrade completed successfully on $server"
+    else
+        echo "Error ocurred while udpating $server"
+    fi
+done
